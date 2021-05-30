@@ -1,12 +1,24 @@
-## Welcome to GitHub Pages
+## Digital Ocean Vagrant Automatin Script
 
-You can use the [editor on GitHub](https://github.com/johnxeast/digital-ocean-vagrant-webserver/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagrant file that I modified. Go check them out if you haven't already!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instructions and Requirments
+- #### Requirments
 
-### Markdown
+  1. For this script to work you need to have Vagrant downloaded on your machine. If you don't already have it, head over to https://www.vagrantup.com/ and download it.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  2. Now that you have installed Vagrant we can download the digital ocean vagrant plugin with this command: `vagrant plugin install vagrant-digitalocean`
+
+  3. You now have to head over to https://www.digitalocean.com/ and get an create or use a already created API Token.
+
+     ![images](images/digitaloceanapitoken.png)
+
+- #### Instructions
+  1. Git clone the repo with: `git clone https://github.com/johnxeast/digital-ocean-vagrant-automation.git`
+
+  2. Run the vagrantscript.py with: `python3 vagrantscript.py`. This will ask you for your Digital Ocean Token, what image you want to use, what region you want the Droplets in, and the size of the machine. It will list Images, Regions, and Sizes for you to select.
+
+
 
 ```markdown
 Syntax highlighted code block
@@ -23,15 +35,3 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnxeast/digital-ocean-vagrant-webserver/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
