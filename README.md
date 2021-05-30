@@ -14,6 +14,13 @@ This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagran
 
 
 ### Instructions
+  #### Please do not edit the following lines in the **Vagrantfile** or the script will not work
+  ```markdown
+  provider.token = 'TOKEN' 
+  provider.image = 'IMAGE'
+  provider.region = 'REGION'
+  provider.size = 'SIZE'
+  ```
   1. Git clone the repo with: `git clone https://github.com/johnxeast/digital-ocean-vagrant-automation.git`
 
   2. Run the vagrantscript.py with: `python3 vagrantscript.py`. This will ask you for your Digital Ocean Token, what image you want to use, what region you want the Droplets in, and the size of the machine. It will list Images, Regions, and Sizes for you to select.
