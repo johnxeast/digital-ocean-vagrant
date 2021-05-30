@@ -14,7 +14,7 @@ This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagran
 
 
 ### Instructions
-  #### Please do not edit the following lines in the **Vagrantfile** or the script will not work
+  ##### Please do not edit the following lines in the **Vagrantfile** or the script will not work
   ```markdown
   provider.token = 'TOKEN' 
   provider.image = 'IMAGE'
