@@ -2,6 +2,8 @@
 
 This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagrant file that I modified. Go check them out if you haven't already!
 
+Adding more to the script soon!
+
 ### Requirments
 
   1. For this script to work you need to have Vagrant downloaded on your machine. If you don't already have it, head over to https://www.vagrantup.com/ and download it.
