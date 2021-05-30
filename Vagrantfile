@@ -25,7 +25,7 @@ Vagrant.configure('') do |config|
         end
     end
   
-    config.vm.define "droplet" do |config|
+    config.vm.define "droplet2" do |config|
   
         config.vm.provider :digital_ocean do |provider, override|
           override.ssh.private_key_path = '~/.ssh/id_rsa'
