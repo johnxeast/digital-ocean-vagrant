@@ -1,6 +1,8 @@
 ## Digital Ocean Vagrant Automation Script
 
-This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagrant file that I modified. Go check them out if you haven't already!
+This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagrant file that I modified. Go check them out if you haven't already!'
+
+As of right now it only supports two machines. Working on that!
 
 Adding more to the script soon!
 
@@ -25,6 +27,6 @@ Adding more to the script soon!
   ```
   1. Git clone the repo with: `git clone https://github.com/johnxeast/digital-ocean-vagrant-automation.git`
 
-  2. Run the vagrantscript.py with: `python3 vagrantscript.py`. This will ask you for your Digital Ocean Token, what image you want to use, what region you want the Droplets in, and the size of the machine. It will list Images, Regions, and Sizes for you to select.
+  2. Run the vagrantscript.py with: `python3 vagrantscript.py`. This will ask you for your Digital Ocean Token(which is the API Key), what image you want to use, what region you want the Droplets in, and the size of the machine. It will list Images, Regions, and Sizes for you to select.
 
 
