@@ -1,4 +1,4 @@
-## Digital Ocean Vagrant Automatin Script
+## Digital Ocean Vagrant Automation Script
 
 This uses https://github.com/devopsgroup-io/vagrant-digitalocean original vagrant file that I modified. Go check them out if you haven't already!
 
