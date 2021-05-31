@@ -37,6 +37,14 @@ if droplet_number == 1:
     with open("Vagrantfile", "w") as f:
         f.write(addNEWdroplet.replace('"', ""))
 
+    ## changing config number
+
+    with open("Vagrantfile") as f:
+        ADDME=f.read().replace("ADDME", "{}".format(droplet_number + 1))
+    
+    with open("Vagrantfile", "w") as f:
+        f.write(ADDME)
+
 ## Droplet1 name change
 
 with open("Vagrantfile") as f:
