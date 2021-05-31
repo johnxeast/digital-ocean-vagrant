@@ -11,10 +11,10 @@ Vagrant.configure('') do |config|
         config.vm.provider :digital_ocean do |provider, override|
           override.ssh.private_key_path = '~/.ssh/id_rsa'
           override.vm.box = 'digital_ocean'
-          override.vm.box_url = https://github.com/devopsgroup-io/vagrant-digitalocean/raw/master/box/digital_ocean.box
+          override.vm.box_url = 'https://github.com/devopsgroup-io/vagrant-digitalocean/raw/master/box/digital_ocean.box'
           override.nfs.functional = false
           override.vm.allowed_synced_folder_types = :rsync
-          provider.token = '02f10529a4cdc805de7ab09d5a2e423b7334d0821b2f6cae8b7903f000504469'
+          provider.token = 'TOKEN'
           provider.image = 'IMAGE'
           provider.region = 'REGION'
           provider.size = 'SIZE'
@@ -24,7 +24,6 @@ Vagrant.configure('') do |config|
           provider.monitoring = false
         end
     end
-    
     
     "ADD1"
 
