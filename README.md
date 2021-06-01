@@ -12,7 +12,7 @@ Adding more to the script soon!
 
   2. Now that you have installed Vagrant we can download the digital ocean vagrant plugin with this command: `vagrant plugin install vagrant-digitalocean`
 
-  3. You now have to head over to https://www.digitalocean.com/ and create or use an already created API Token.
+  3. You now have to head over to https://www.digitalocean.com/ and create or use an already created API Token. If you need to create an account you can do so [HERE](https://m.do.co/c/918dded77c7c) and get $100 in free credit.
 
      ![images](images/digitaloceanapitoken.png)
 
