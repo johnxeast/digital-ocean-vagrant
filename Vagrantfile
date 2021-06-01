@@ -5,7 +5,7 @@
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
-Vagrant.configure('ADDME') do |config|
+Vagrant.configure('2') do |config|
 
     config.vm.define 'droplet1' do |config|
         config.vm.provider :digital_ocean do |provider, override|
